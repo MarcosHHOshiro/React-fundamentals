@@ -1,3 +1,11 @@
+import { Button } from "./components/button"
+
 export function App() {
-    return <h1>Hello World!</h1>
+    return (
+        <div>
+            <Button name="Salvar" onClick={() => alert("criar")} />
+            <Button name="Editar" />
+            <Button name="Remover" />
+        </div>
+    )
 }
